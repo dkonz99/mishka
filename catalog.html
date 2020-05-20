@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="styles/style.min.css">
+	<title>Mishka all Каталог</title>
+</head>
+<body>
+	<div class="modal-wrapper"></div>
+<header class="main-header">
+<section class="mobile-menu-full">
+<nav class="main-nav">	
+<ul class="main-list">
+	<li class="main-list__logo">
+    <a class="main-list__link" href="index.html">
+	<picture>
+    <source media="(min-width:1250px)" srcset="images/mishka-logo-desktop.png" >
+    <source media="(min-width:768px)" srcset="images/mishka-logo-tablet.png" >	
+    <img class="main-list__logo-picture main-list__logo-picture--mobile" src="images/logo.png" width="85" height="35" alt="Логотип Mishka-all">
+		
+    </picture>
+    </a>
+    <button class="main-list__button" type="button">	
+    </button>
+    </li> 
+	<li class="main-list__item">
+	<a class="main-list__link" href="#">
+		<span class="main-list__text">
+		Каталог товаров	
+        </span>	
+		
+	</a>	
+	</li>
+	<li class="main-list__item">
+	<a class="main-list__link" href="knitting.html">
+		<span class="main-list__text main-list__text--knitting">
+		Вязание на заказ	
+        </span>	
+	</a>	
+	</li>
+	<li class="main-list__item main-list__item--search">
+	
+	<button class="main-list__picture main-list__picture--search" type="button">
+    
+	</button>
+	<a class="main-list__link" href="#">
+	<span class="main-list__text main-list__text--search">
+		Поиск по сайту
+	</span>
+	</a>	
+	</li>
+	<li class="main-list__item main-list__item--basket">
+	<button class="main-list__picture main-list__picture--basket js-basket" type="button">
+    
+	</button>
+	<a class="main-list__link" href="#">
+		
+	<span class="main-list__text main-list__text--basket">
+		Корзина: пока пуста
+    </span>	
+	</a>	
+	</li>
+</ul>
+</nav>
+</section>
+<section class="mobile-menu-lite">
+	<p class="mobile-menu-lite__logo">
+    <a class="mobile-menu-lite__list" href="index.html">
+	<picture>
+    	<source media="(min-width:1250px)" srcset="images/mishka-logo-desktop.png">
+    	
+    	<img class="mobile-menu-lite__picture mobile-menu-lite__picture--mobile" src="images/logo.png" width="85" height="35" alt="Логотип Mishka-all">
+    </picture>
+    </a>
+    <button class="mobile-menu-lite__button" type="button">	
+    </button>
+    </p> 
+</section>
+</header>
+<div class="page-main">
+<section class="modal-basket modal-basket--catalog">
+	<h2 class="modal-basket__header">
+		Добавить в корзину
+	</h2>
+	<p class="modal-basket__text">
+		Выберите размер:
+	</p>
+	<div class="modal-basket__wrapper">
+		<button class="modal-basket__switch  main-button" type="button" autofocus>
+			S
+		</button>
+		<button class="modal-basket__switch main-button" type="button">
+			M
+		</button>
+		<button class="modal-basket__switch main-button" type="button">
+			L
+		</button>
+	</div>
+	<button class="main-button modal-basket__button" type="button">
+		Добавить
+	</button>
+</section>	
+<section class="page-name">
+    <ul class="page-name__list">
+<li class="page-name__item page-name__item--tablet">
+<a class="page-name__link" href="#">
+	Каталог товаров
+</a>	
+</li>
+<li class="page-name__item page-name__item--tablet">
+<a class="page-name__link" href="knitting.html">
+	Вязание на заказ
+</a>		
+</li>
+<li class="page-name__item page-name__item--desktop">
+<a class="page-name__link" href="#">
+	Новые поступления
+</a>		
+</li>
+<li class="page-name__item page-name__item--desktop">
+<a class="page-name__link" href="#">
+	Распродажа
+</a>		
+</li>
+<li class="page-name__item page-name__item--no-link">
+	Бесплатная доставка по России
+</li>
+</ul>	
+	<h1 class="page-name__header">
+	  Каталог товаров
+	</h1>
+</section>
+<section class="catalog-products">
+    <h2 class="visually-hidden">
+    	Товары
+    </h2>
+	<ul class="catalog-products__list">
+		<li class="catalog-products__item catalog-products__item--1">
+			<a class="catalog-products__link" href="#">
+			<p class="catalog-products__picture">
+				<picture>
+				<source media="(min-width:1250px)" srcset="images/photo-1-desktop.jpg">
+				<source media="(min-width:768px)" srcset="images/photo-1-tablet.jpg">
+				<img class="catalog-products__photo" src="images/catalog-photo-product-1.jpg" width="260" height="195" alt="Зайчик">
+			</picture>
+		    </p>
+		    
+		    </a>
+		    <div class="catalog-products__wrapper-info">
+            <a class="catalog-products__link" href="#">
+			<h3 class="catalog-products__header">
+				Зайчик-попрыгайчик
+			</h3>
+			</a>
+			<p class="catalog-products__feature">
+				Рост 30 см, вес 200 г
+			</p>
+			<div class="catalog-products__wrapper-price">
+				<p class="catalog-products__price">
+                    1200 руб.
+				</p>
+				<button class="catalog-products__basket js-basket" type="button">
+                    
+				</button>
+			</div>
+		    </div>
+		
+		</li>
+		<li class="catalog-products__item catalog-products__item--2">
+			<a class="catalog-products__link" href="#">
+			<p class="catalog-products__picture">
+				<picture>
+				<source media="(min-width:1250px)" srcset="images/photo-2-desktop.jpg">
+				<source media="(min-width:768px)" srcset="images/photo-2-tablet.jpg">
+				<img class="catalog-products__photo" src="images/catalog-photo-product-2.jpg" width="260" height="195" alt="Корзинка для белья">
+			</picture>
+		</p>
+		
+		</a>
+		<div class="catalog-products__wrapper-info">
+            <a class="catalog-products__link" href="#">
+			<h3 class="catalog-products__header">
+                Корзинка для белья
+			</h3>
+			</a>
+			<p class="catalog-products__feature">
+                Диаметр 15 см, высота 10 см
+			</p>
+			<div class="catalog-products__wrapper-price">
+				<p class="catalog-products__price">
+                    690 руб.
+				</p>
+				<button class="catalog-products__basket js-basket" type="button">
+
+				</button>
+			</div>	
+		</div>
+            
+			
+		</li>
+		<li class="catalog-products__item catalog-products__item--3">
+			<a class="catalog-products__link" href="#">
+			<p class="catalog-products__picture">
+				<picture>
+				<source media="(min-width:1250px)" srcset="images/photo-3-desktop.jpg">
+				<source media="(min-width:768px)" srcset="images/photo-3-tablet.jpg">
+				<img class="catalog-products__photo" src="images/catalog-photo-product-3.jpg" width="260" height="195" alt="Большая корзинка для игрушек">
+			</picture>
+				
+		</p>
+		
+		
+		</a>
+		<div class="catalog-products__wrapper-info">
+            <a class="catalog-products__link" href="#">
+			<h3 class="catalog-products__header">
+                Большая корзинка <br> для игрушек
+			</h3>
+			</a>
+			<p class="catalog-products__feature catalog-products__feature--toys">
+                Диаметр 30 см, высота 30 см
+			</p>
+			<div class="catalog-products__wrapper-price">
+				<p class="catalog-products__price">
+                    1500 руб.
+				</p>
+				<button class="catalog-products__basket js-basket" type="button">
+					
+				</button>
+			</div>	
+		</div>
+            
+			
+		</li>
+		<li class="catalog-products__item catalog-products__item--video">
+			<div class="catalog-products__wrapper-video">
+			<h3 class="catalog-products__header catalog-products__header--video">
+                Процесс производства
+			</h3>
+			<p class="catalog-products__video-picture">
+				<a class="catalog-products__video-button" href="#">
+					
+				</a>
+			</p>
+		    </div>
+			<p class="catalog-products__text">
+				По просьбам наших любимых фолловеров мы сняли для вас подробное видео о том, как появляются наши товары.
+			</p>
+			<button class="main-button catalog-products__button">
+				СДЕЛАТЬ ЗАКАЗ
+			</button>				
+		</li>
+	</ul>
+</section>
+</div>	
+<footer class="main-footer">
+	<p class="main-footer__social">
+		<a href="#" class="main-footer__social-logo">
+		<img  src="images/logo-footer.png" width="102" height="34" alt="Метка">
+		</a>
+		<a href="#" class="main-footer__social-icon main-footer__social-icon--instagram">
+			
+		</a>
+		<a href="#" class="main-footer__social-icon  main-footer__social-icon--facebook">
+			
+		</a>
+		<a href="#" class="main-footer__social-icon  main-footer__social-icon--twitter">
+			
+		</a>
+	</p>
+</footer>
+<script src="scripts/all.js"></script>
+</body>
+</html>
