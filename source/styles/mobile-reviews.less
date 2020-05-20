@@ -1,0 +1,294 @@
+.reviews {
+	margin: 0px 30px;
+	padding: 0px;
+	min-height:626px;
+	position:relative;
+	background:url("../images/about-us-line-mobile.png") no-repeat center bottom;
+	&__picture {
+		z-index:-1;
+		display:none;
+	}
+	&__header {
+		margin: 0px;
+	padding: 0px;
+	margin-top: 35px;
+	margin-bottom: 30px;
+	font-size: 25px;
+	line-height: 30px;
+	}
+	&__text {
+		margin: 0px;
+	padding: 0px;
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #444444;
+	margin-bottom: 30px;
+	}
+	&__wrapper {
+		&--switch {
+			display:flex;
+		}
+	}
+	&__name {
+		margin: 0px;
+	padding: 0px;
+	font-size: 17px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	}
+	&__mail {
+		margin: 0px;
+	padding: 0px;
+	margin-bottom: 35px;
+
+	}
+	&__link {
+		display:inline-block;
+		margin: 0px;
+	padding: 0px;
+	color: #444;
+	font-family:@main-family;
+	font-weight:400;
+	font-size: 17px;
+	line-height: 30px;
+	
+	&:hover {
+		color:#46c1ae;
+	}
+	&:focus {
+		color:#46c1ae;
+		opacity:0.3;
+	}}
+
+	&__switch {
+		margin: 0px;
+	padding: 0px;
+	display:inline-block;
+	background-color: @main-background;
+	border: 1px solid #ececec;
+	width: 130px;
+	min-height: 50px;
+	&--left {
+		background-image: url("../images/huge-arrow-left.png");
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	&--right {
+		background-image: url("../images/huge-arrow-right.png");
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	&:hover {
+		opacity:0.6;
+	}
+	&:focus {
+		opacity:0.3;
+	}
+	}
+	&__button {
+		
+		margin-top: 35px;
+		margin-bottom: 45px;
+
+	}
+}
+@media (min-width:768px) {
+	.reviews {
+	margin: 0px 50px;
+	padding: 0px;
+	min-height:320px;
+	padding-bottom: 120px;
+	background:url("../images/about-us-line-tablet.png") no-repeat center bottom;
+	&__picture {
+		display:inline;
+        position: absolute;
+        top: -70px;
+        left: -50px;
+	}
+	&__header {
+		margin: 0px;
+	padding: 0px;
+	font-size: 43px;
+	line-height: 50px;
+	margin-top: 105px;
+	margin-bottom: 55px;
+	}
+	&__text {
+		margin: 0px;
+	padding: 0px;
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #444444;
+	margin-bottom: 65px;
+	}
+	&__wrapper {
+		display:flex;
+	}
+	&__name {
+		margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	width: 255px;
+	margin-right: 250px;
+	}
+	&__mail {
+		margin: 0px;
+	padding: 0px;
+	}
+	&__link {
+		display:inline-block;
+		margin: 0px;
+	padding: 0px;
+	color: #444;
+	font-family:@main-family;
+	font-weight:400;
+	font-size: 17px;
+	line-height: 30px;
+	
+	&:hover {
+		color:#46c1ae;
+	}
+	&:focus {
+		color:#46c1ae;
+		opacity:0.3;
+	}}
+	&__switch {
+		margin: 0px;
+	padding: 0px;
+	display:inline-block;
+	background-color: @main-background;
+	border: none;
+	width: 85px;
+	min-height: 50px;
+	&--left {
+		background-image: url("../images/huge-arrow-left.png");
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	&--right {
+		background-image: url("../images/huge-arrow-right.png");
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	&:hover {
+		opacity:0.6;
+	}
+	&:focus {
+		opacity:0.3;
+	}
+	}
+	&__button {
+		position:absolute;
+		width: 175px;
+		top: -35px;
+		left: 490px;
+
+	}
+}
+}
+@media (min-width:1250px) {
+	.reviews {
+	margin: 0px 100px;
+	padding: 0px;
+	min-height:275px;
+	padding-bottom: 170px;
+	background:url("../images/about-us-line-desktop.png") no-repeat center bottom;
+	&__picture {
+		display:inline;
+			position: absolute;
+        top: -80px;
+        left: 0px;
+        width:350px;
+        height:457px;
+	}
+	&__header {
+		margin: 0px;
+	padding: 0px;
+	font-size: 53px;
+	line-height: 57px;
+	margin-top: 105px;
+	margin-bottom: 60px;
+	margin-left: 175px;
+	}
+	&__text {
+		margin: 0px;
+	padding: 0px;
+	font-size: 17px;
+	line-height: 30px;
+	font-weight: 400;
+	color: #444444;
+	margin-bottom: 50px;
+	margin-left: 175px;
+	}
+	&__wrapper {
+		display:flex;
+		margin-left: 175px;
+	}
+	&__name {
+		margin: 0px;
+	padding: 0px;
+	font-size: 17px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	width: 240px;
+	margin-right: 460px;
+	}
+	&__mail {
+		margin: 0px;
+	padding: 0px;
+	}
+	&__link {
+		display:inline-block;
+		margin: 0px;
+	padding: 0px;
+	color: #444;
+	font-family:@main-family;
+	font-weight:400;
+	font-size: 17px;
+	line-height: 30px;
+	
+	&:hover {
+		color:#46c1ae;
+	}
+	&:focus {
+		color:#46c1ae;
+		opacity:0.3;
+	}}
+	&__switch {
+		margin: 0px;
+	padding: 0px;
+	display:inline-block;
+	background-color: @main-background;
+	border: none;
+	width: 88px;
+	min-height: 50px;
+	&--left {
+		background-image: url("../images/huge-arrow-left.png");
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	&--right {
+		background-image: url("../images/huge-arrow-right.png");
+		background-repeat: no-repeat;
+		background-position: center center;
+	}
+	&:hover {
+		opacity:0.6;
+	}
+	&:focus {
+		opacity:0.3;
+	}
+	}
+	&__button {
+		position:absolute;
+		width: 175px;
+		top: -35px;
+		left: 875px;
+
+	}
+}
+}
