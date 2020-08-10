@@ -127,7 +127,8 @@ button {
 }
 .main-list__logo {
   margin: 0px;
-  padding: 0px;
+  padding: 0px 0px;
+  padding-left: 116px;
   display: flex;
   min-height: 80px;
   width: auto;
@@ -140,7 +141,7 @@ button {
   opacity: 0.3;
 }
 .main-list__logo-picture {
-  margin-left: 116px;
+  /*margin-left:116px;*/
 }
 .main-list__button {
   margin: 0px;
@@ -156,17 +157,24 @@ button {
   width: auto;
   margin: 0px;
   padding: 0px;
+  padding-left: 76px;
   min-height: 80px;
   border-top: 1px solid #ececec;
   display: flex;
   align-items: center;
+}
+.main-list__item--search {
+  padding-left: 0px;
+}
+.main-list__item--basket {
+  padding-left: 0px;
 }
 .main-list__text {
   margin: 0px;
   padding: 0px;
   font-size: 17px;
   line-height: 24px;
-  margin-left: 76px;
+  /*margin-left: 76px;*/
 }
 .main-list__text:hover {
   color: rgba(0, 0, 0, 0.6);
@@ -175,15 +183,16 @@ button {
   color: rgba(0, 0, 0, 0.3);
 }
 .main-list__text--search {
-  margin-left: 24px;
+  /* margin-left: 24px;*/
 }
 .main-list__text--basket {
-  margin-left: 24px;
+  /* margin-left: 24px;*/
 }
 .main-list__picture {
   margin: 0px;
   padding: 0px;
   margin-left: 30px;
+  margin-right: 24px;
   background-color: transparent;
   border: none;
 }
@@ -226,6 +235,7 @@ button {
     flex-direction: row;
   }
   .main-list__logo {
+    padding: 0px;
     border-right: 1px solid #ececec;
     min-height: 90px;
     margin-left: 50px;
@@ -240,6 +250,8 @@ button {
     display: none;
   }
   .main-list__item {
+    margin: 0px;
+    padding: 0px;
     display: none;
     min-height: 90px;
   }
@@ -258,6 +270,8 @@ button {
     display: none;
   }
   .main-list__picture {
+    margin: 0px;
+    padding: 0px;
     margin: 0px 32px;
   }
 }
@@ -279,6 +293,8 @@ button {
     margin: 0px 100px;
   }
   .main-list__logo {
+    margin: 0px;
+    padding: 0px;
     display: none;
     min-height: 90px;
   }
@@ -286,6 +302,8 @@ button {
     margin-left: 0px;
   }
   .main-list__item {
+    margin: 0px;
+    padding: 0px;
     display: flex;
     border-right: 1px solid #ececec;
     border-top: none;
@@ -306,6 +324,8 @@ button {
     display: none;
   }
   .main-list__picture {
+    margin: 0px;
+    padding: 0px;
     margin: 0px 32px;
   }
 }
